@@ -8,9 +8,17 @@
   --primaryColor: #fed136;
   --primaryColorDarker: #fec503;
   --primaryColor50: #fed13680;
-  --primaryColor90: #fed136E6;
+  --primaryColor90: #fed136e6;
   --black: #212529;
-  --primaryBackground: var(--black);
+  --greenDark: #0c3c47;
+  --greenLight: #76b72a;
+  --greenDarker: #527f1d;
+  --orange: #f6722a;
+  --primaryColor: var(--greenLight);
+  --primaryColorDarker: var(--greenDarker);
+  --primaryColor50: #76b72a80;
+  --primaryColor90: #76b72ae6;
+  --primaryBackground: var(--greenDark);
   --brandFont: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -26,6 +34,7 @@
 
 .bg-dark {
   color: white;
+  background-color: var(--primaryBackground)!important;
 }
 
 body {
@@ -134,7 +143,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: var(--black);
+  background-color: var(--primaryBackground);
 }
 
 #mainNav .navbar-toggler {
@@ -176,7 +185,7 @@ img::-moz-selection {
     padding-bottom: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    /* background-color: transparent; */
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -188,7 +197,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: var(--black);
+    background-color: var(--primaryBackground);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -383,7 +392,7 @@ header.masthead .intro-text .intro-heading {
   margin-left: 35px;
   /* IE 9 */
   transform: rotate(45deg);
-  background-color: var(--black);
+  background-color: var(--primaryBackground);
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -393,7 +402,7 @@ header.masthead .intro-text .intro-heading {
   height: 75px;
   /* IE 9 */
   transform: rotate(90deg);
-  background-color: var(--black);
+  background-color: var(--primaryBackground);
 }
 
 .timeline {
@@ -605,7 +614,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: var(--black);
+  background-color: var(--primaryBackground);
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -695,7 +704,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: var(--black);
+  background-color: var(--primaryBackground);
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {

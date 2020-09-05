@@ -78,8 +78,21 @@
       </div>
     </nav>
 
-    <img src="./img/FWG-banner-pic.jpg" class="hero" />
-
+    <div class="masthead" style="display: grid">
+      <img
+        src="./img/FWG-banner-pic.jpg"
+        class="hero"
+        style="grid-area: 1/1/1/1"
+      />
+      <div
+        class="intro-text"
+        style="grid-area: 1/1/1/1; display: grid; place-items: center"
+      >
+        <p class="intro-heading" style="color: var(--primaryColorDarker)">
+          Mit Spaß Digital
+        </p>
+      </div>
+    </div>
     <!-- Header -->
     <header class="masthead">
       <div class="container">
@@ -517,7 +530,11 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/roos.jpg" alt="" />
+              <img
+                class="mx-auto rounded-circle"
+                src="img/team/roos.jpg"
+                alt=""
+              />
               <h4>Roos Trooster</h4>
               <p class="text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
